@@ -15,7 +15,7 @@ squareNum(input);
 console.log(output);
 ```
 
-**Now lets see by using Map() function**
+**Now lets see by using map() function**
 
 ```bash
 input= [5,4,6,3,7,2,8,1,9,10];
