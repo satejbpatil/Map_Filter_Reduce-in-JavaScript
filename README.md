@@ -9,6 +9,8 @@ The map() function is used to transformation of an array.
 
 Array transformations involve manipulating the elements of an array to create a new array with modified or processed values.
 
+***Explore the code here:*** https://github.com/satejbpatil/Map_Filter_Reduce-in-JavaScript/blob/main/map.md
+
 ## **2. filter()**
 
 The filter() function in JavaScript is used to create a new array containing only elements that satisfy a specified condition. 
