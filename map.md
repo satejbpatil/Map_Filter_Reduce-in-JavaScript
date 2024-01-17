@@ -37,4 +37,7 @@ const output = input.map((x) => x*x);
 console.log(output);
 ```
 
+### Output:
+![Screenshot from 2024-01-17 17-28-54](https://github.com/satejbpatil/Map_Filter_Reduce-in-JavaScript/assets/112341637/4fe840f2-b4fd-4dcb-ac1e-d2b535afde96)
+
 
