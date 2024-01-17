@@ -28,27 +28,30 @@ let max_element= findMaxElement(input);
 console.log(max_element);
 ```
 
-**Now lets see by using filter() function**
+**Now lets see by using reduce() function**
 
 ```bash
 input= [5,4,6,3,7,2,8,1,9,10];
 
-function square(x) {
-    return x*x;
-}
-
-const output = input.map(square);
-console.log(output);
+const sum = input.reduce(function(acc,curr){
+    acc+=curr;
+    return acc
+},0)
+console.log(sum);
 ```
 
-OR
+
 
 ```bash
 input= [5,4,6,3,7,2,8,1,9,10];
 
-const output = input.map((x) => x*x);
-console.log(output);
+const findMaxElement = input.reduce(function(acc,curr){
+    if(curr>acc) acc=curr;
+    return acc
+},0)
+console.log(findMaxElement);
 ```
 
 ### Output:
-![Screenshot from 2024-01-17 17-28-54](https://github.com/satejbpatil/Map_Filter_Reduce-in-JavaScript/assets/112341637/4fe840f2-b4fd-4dcb-ac1e-d2b535afde96)
+![Screenshot from 2024-01-17 19-44-31](https://github.com/satejbpatil/Map_Filter_Reduce-in-JavaScript/assets/112341637/c653dbb0-099c-4123-a936-d43cd2964489)
+
